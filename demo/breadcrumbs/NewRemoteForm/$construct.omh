@@ -1,0 +1,6 @@
+# Enter your initialization code here
+Do iListCrumbs.$define()
+Do iListCrumbs.$cols.$add("label",kCharacter,kSimplechar)
+Do iListCrumbs.$add("Level 1")
+Do iListCrumbs.$add("Level 2")
+Do iListCrumbs.$add("Level 3")

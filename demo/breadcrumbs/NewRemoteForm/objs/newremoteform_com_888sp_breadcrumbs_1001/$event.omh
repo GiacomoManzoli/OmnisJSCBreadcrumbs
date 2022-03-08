@@ -1,0 +1,2 @@
+On evBreadcrumbClick
+	Do $cinst.$clientcommand("okcancelmessage",row(pNum,"Crumb clicked "))

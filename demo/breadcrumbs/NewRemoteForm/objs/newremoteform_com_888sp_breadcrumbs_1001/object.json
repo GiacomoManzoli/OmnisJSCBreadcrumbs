@@ -1,0 +1,63 @@
+{
+	"ident": 1001,
+	"order": 1,
+	"objtype": "kComponent",
+	"componentlib": "jsControls",
+	"componentctrl": "com_888sp_breadcrumbs",
+	"properties": {
+		"::textcolor": "kJSThemeColorPrimary",
+		"active": true,
+		"alpha": 255,
+		"backgroundcolor": "kJSThemeColorBackground",
+		"contextmenu": "",
+		"crumbmaxwidth": 200,
+		"crumbminwidth": 0,
+		"crumbpaddinghorz": 8,
+		"crumbpaddingvert": 4,
+		"crumbspacing": 8,
+		"crumbwidth": 0,
+		"cssclassname": "",
+		"dataname": "iListCrumbs",
+		"desgroup": 0,
+		"designactive": true,
+		"deslock": false,
+		"disabledefaultcontextmenu": false,
+		"disablesystemfocus": false,
+		"dividericoncolor": "kJSThemeColorPrimary",
+		"dividericonid": "block+16x16",
+		"dropmode": "kAcceptNone",
+		"enabled": true,
+		"events": "evBreadcrumbClick",
+		"fieldstyle": "",
+		"font": 1,
+		"fontsize": 10,
+		"nexttabobject": "",
+		"objlink": 0,
+		"preventlayoutanimation": false,
+		"tooltip": "",
+		"userinfo": "",
+		"visible": true
+	},
+	"layout": {
+		"320": {
+			"left": 17,
+			"top": 51,
+			"width": 232,
+			"height": 46,
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		},
+		"768": {
+			"left": 13,
+			"top": 24,
+			"width": 516,
+			"height": 49,
+			"dragborder": false,
+			"edgefloat": "kEFnone",
+			"errortextpos": "kJSErrorTextPosUnder",
+			"visible": true
+		}
+	}
+}
