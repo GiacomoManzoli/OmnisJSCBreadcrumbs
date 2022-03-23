@@ -1,0 +1,174 @@
+{
+    "name": "com.888sp.breadcrumbs",
+    "flags": {
+        "beforeafterevents": false,
+        "beforeevents": false,
+        "backcolorandalpha": false,
+        "noenabled": false,
+        "transparentbackground": false,
+        "hasdefaultborder": false,
+        "hasdisplayformat": false,
+        "hasdragevents": false,
+        "uselegacycolors": false
+    },
+    "customtabname":  "Breadcrumb",
+    "standardproperties" :  [
+        "dataname",
+        "font",
+        "fontsize"
+    ],
+    "properties": {
+        "backgroundcolor": {
+            "id": 7,
+            "desc": "Background color",
+            "type": "color",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": -2147483448,
+            "editreadonly": false
+        },
+        "textcolor": {
+            "id": 11,
+            "desc": "Text color",
+            "type": "color",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": -2147483458,
+            "editreadonly": false
+        },
+        "crumbspacing": {
+            "id": 14,
+            "desc": "Spacing between crumbs",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 8,
+            "editreadonly": false
+        },
+        "crumbminwidth": {
+            "id": 16,
+            "desc": "Minimum crumb width (only if crumbwidth=0)",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 0,
+            "editreadonly": false
+        },
+        "crumbmaxwidth": {
+            "id": 17,
+            "desc": "Maximum crumb width (only if crumbwidth=0)",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 200,
+            "editreadonly": false
+        },
+        "crumbwidth": {
+            "id": 18,
+            "desc": "Fixed crumb width",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 160,
+            "editreadonly": false
+        },
+        "crumbpaddinghorz": {
+            "id": 19,
+            "desc": "Crumb horizontal padding",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 16,
+            "editreadonly": false
+        },
+        "crumbpaddingvert": {
+            "id": 20,
+            "desc": "Crumb vertical padding",
+            "type": "integer",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 8,
+            "editreadonly": false
+        },
+        "dividericonid": {
+            "id": 21,
+            "desc": "Divider icon, 0 for default",
+            "type": "icon",
+            "tab": "custom",
+            "runtimeonly": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": 0,
+            "editreadonly": false
+        },
+        "dividericoncolor": {
+            "id": 22,
+            "desc": "Divide icon color",
+            "type": "color",
+            "tab": "custom",
+            "runtimeonly": false,
+            "findandreplace": false,
+            "extconstant": false,
+            "intconstant": false,
+            "constrangestart": "",
+            "constrangeend": "",
+            "initial": -2147483458,
+            "editreadonly": false
+        }
+    },
+    "constants": {
+    },
+    "events": {
+        "evBreadcrumbClick": {
+            "id": 1,
+            "desc": "Click",
+            "parameters": [
+                {
+                    "name": "Num",
+                    "type": "integer",
+                    "desc": "Clicked element number"
+                }
+            ]
+        }
+    },
+    "methods": {
+    },
+    "html": {
+        "template": "<div %o %s data-props='%p' data-mvprops='%m'></div>",
+        "extrastyles": "display:flex;"
+    }
+}
